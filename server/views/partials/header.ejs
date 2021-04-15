@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="/assets/css/custom.css">-->
+    <link rel="icon" href="demo_icon.gif" type="image/gif" sizes="16x16">
+    <title>
+        <%= title %>
+    </title>
+</head>
+<style>
+
+    a:link {
+        text-decoration: none;
+    }
+
+
+    .nav {
+        height: 80px;
+        width: 100%;
+        background-color: #4e3a26;
+        background-image: linear-gradient(150deg, #160d03, #614b36);
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: nowrap;
+        margin-bottom: 10px;
+    }
+
+    .nav-bar {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-bar.left {
+        width: 20%;
+        padding-left: 40px;
+    }
+
+    .nav-bar.right {
+        justify-content: flex-end;
+
+    }
+
+    #chutter {
+        font-size: 35px;
+        font-weight: 450;
+        left: 128px;
+        font-family: cursive;
+        color: #fcebb6;
+    }
+
+
+    .add-member {
+        color: white;
+        padding: 10px;
+    }
+
+
+</style>
+
+<body>
+    <nav class="nav" id="nav">
+        <div class="nav-bar" id="nav-bar">
+            <div class="nav-bar left">
+                <img src="https://lh3.googleusercontent.com/H45FF4g5LM07Sz6OqqVUmmC4UWgGPRmyhXXSlsfiEBX7bLsApCyaBNRDbmK4yXzWeb_vk66M04UXPLlOcIyPV8tajQqBo_ioRSfsfJHawp6Qr1c1n_cbujJimzIdiNRjb0JQ5iO_ZQxSeF54_GGsNTrs1sZZdAZ4shpBtb_ARwIkAPUAqUpuqumJOL8nJ845mjnOstQVvIr6UM2dpNR8ypeBZvMhdU1rCvWEwtMrxU1bvhafzlmQU6vj3j0NcoIQLiQjLvtlfW46a-TaFBgQjS0uWh3YCek7K8bmFX55MUjYvRwdPsdXlmDUHbpjHAOHEWTbtgRBRtFwBtw_P3NWcCwwboYw7aSxgRMQAekdthCp3nwooNdU6cD22mYfRruzWd7XzljFa6ybw30N7lih4QlzeRW0Vi8T0-O-64F2xLMTdlNJfJlsts2uKjyDpQujSA2Yqofv3yB-nkM_8z_Y8Q0WGn0AzoIW3oP3ESJVFyLFduN9yWf-aJTJRyqHr2Syn4uMb4ipc3Hs9agcZjUjDcg4By8xiiFHKoTx-5rGYwr8Tg9F-yjxwnawpctdAwd09wfUiI5xyV1Wy4XvDsrVgc7ft3lMl81Hm-58QT9tZlUPWHcV5AEqSaEmZk7VaMTtQbyDIFV-bElJ0JODQGSVNcMsN5ZY7iwR6T0_rOUazUwqqm3IeZ0MTFBN57jfgqFBixoGGb4nhmztqoe7UKNH39XFog=s292-no?authuser=0"
+                    width="70px" />
+                <a href="http://localhost:3000/">
+                    <h id="chutter" class="chutter">HUTTER</h>
+                </a>
+            </div>
+
+            <div class="nav-bar right">
+                <a href="/player/add" class="add-member" title="Add a New Member">
+                    Add a member
+                </a>
+            </div>
+        </div>
+    </nav>
+</body>
+
+</html>

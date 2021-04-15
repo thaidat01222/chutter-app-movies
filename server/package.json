@@ -1,0 +1,27 @@
+{
+    "name": "node-mqsql-crud-app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "nodemon app.js",
+        "server": "node app.js",
+        "client": "npm run start --prefix client",
+        "dev": "concurrently \"npm run server\" \"npm run client\""
+    },
+    "keywords": [],
+    "author": "phan hien",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.0",
+        "concurrently": "^6.0.2",
+        "cors": "^2.8.5",
+        "ejs": "^2.7.4",
+        "express": "^4.17.1",
+        "express-fileupload": "^0.4.0",
+        "jsonwebtoken": "^8.5.1",
+        "mysql": "^2.18.1",
+        "req-flash": "0.0.3"
+    }
+}
